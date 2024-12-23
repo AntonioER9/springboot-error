@@ -8,6 +8,8 @@ public class AppController {
 
   @GetMapping("/app")
   public String index() {
-    return "Hello World";
+    int value = Integer.parseInt("10x");
+    System.out.println(value);
+    return "ok 200";
   }
 }
